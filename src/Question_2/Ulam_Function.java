@@ -22,10 +22,15 @@ public class Ulam_Function {
         }
     }
     public static void main(String[] args) {
-        int n = 234293;
-        
-        
+        int n = 999999;
         System.out.println("the ulam sequence for n = " + n  + " is: ");
-        UlamSequence(n);
+        
+        for(int i = 999999; i >= 0 ; i--){
+            UlamSequence(n--);
+        }
+        
+        
+        
+        
     }
 }
